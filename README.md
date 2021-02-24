@@ -13,4 +13,4 @@ if __name__ == '__main__':
 ## Installation
 
 https://pypi.org/project/yeastarAPI/
-pip3 install yeasterAPI
+pip3 install yeastarAPI
