@@ -1,0 +1,3 @@
+build/*
+dist/*
+yeastarAPI.egg-info/*
