@@ -6,7 +6,7 @@ here = pathlib.Path(__file__).parent.resolve()
 long_description = (here / 'README.md').read_text(encoding='utf-8')
 setup(
     name='yeastarAPI',
-    version='0.1.1',  # Required
+    version='0.1.4',  # Required
     description='yeastar wireless terminal api client',  # Optional
     long_description=long_description,  # Optional
     long_description_content_type='text/markdown',  # Optional (see note above)
@@ -27,9 +27,9 @@ setup(
 
     keywords='api, networking, sms terminal',  # Optional
 
-    package_dir={'': 'src'},  # Optional
+    #package_dir={'': 'yeastarapi'},  # Optional
 
-    packages=find_packages(where='src'),  # Required
+    packages=find_packages(),  # Required
 
     python_requires='>=3.6, <4',
 
